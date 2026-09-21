@@ -1,0 +1,229 @@
+<!DOCTYPE html> 
+<html lang="pl-PL"> 
+<html> 
+     <head> 
+             <meta charset="utf-8"> 
+             <title>Arsenii 2F</title> 
+     </head> 
+    <body> 
+ <p align="right"> <font color="red" size="7" face="Arial"> Arsenii </font> </p> <br> 
+<p align="right"> <font color="red" size="6" face="Arial"> Arsenii </font> </p> <br> 
+<p align="right"> <font color="red" size="5" face="Arial"> Arsenii </font> </p> <br> 
+<p align="right"> <font color="red" size="4" face="Arial"> Arsenii </font> </p> <br> 
+<p align="right"> <font color="red" size="3" face="Arial"> Arsenii </font> </p> <br> 
+<p align="right"> <font color="red" size="2" face="Arial"> Arsenii </font> </p> <br> 
+<p align="right"> <font color="red" size="1" face="Arial"> Arsenii </font> </p> <br> 
+<h1>  Kratsylo </h1><br>
+<h2>  Kratsylo </h2><br>
+<h3>  Kratsylo </h3><br>
+<h4>  Kratsylo </h4><br>
+<h5>  Kratsylo </h5><br>
+<h6>  Kratsylo </h6><br>
+  
+<p align="left"> <font color="green"1 size="6" face="Arial"> 😊-zadowolona twarz </font> </p> <br> 
+<p align="left"> <font color="red"2 size="5" face="Arial"> 😍-twarz z oczami w ksztalcie serca </font> </p> <br> 
+<p align="left"> <font color="blue"3size="4" face="Arial"> 😒-niezadowolona twarz </font> </p> <br> 
+<p align="left"> <font color="gray"4 size="3"face="Arial"> 😎-usmiechnieta twarz z okularami przeciwslonecznymi </font> </p> <br> 
+<p align="left"> <font color="yellow"5 size="2" face="Arial"> 🤩-zafascynowana twarz </font> </p> <br> 
+<p align="left"> <font color="black"6  size="1" face="Arial"> 😢-placzaca twarz </font> </p> <br>
+
+<h1>
+  <b>Adres:80-410,</b>
+  <i>Wrzeszcz Gdanski,</i>
+  <u>Lwowska,</u>
+  <strike>1,1b</strike>
+</h1>
+<br>
+
+<p align="right">
+  <font color="yellow" size="7" face="Arial">
+    ulubiony aktor: Jim Carrey
+  </font>
+</p>
+<br>
+<p style="margin-left: 375px; margin-top: 55px; font-size: 24px; color: gray;">
+        Ulubiony zespół muzyczny:
+        <span style="color: red; font-size: 30px;">QUEEN.</span>
+    </p>
+
+    <p style="margin-left: 370px; margin-top: 50px; color: green;">
+        Data urodzenia: 22 września 1999.
+    </p>
+
+    <h2 style="margin-top: 50px;">
+        H<sub>2</sub>SO<sub>4</sub>
+    </h2>
+
+    <h2 style="margin-top: 40px;">
+        x*x=x<sup>2</sup>
+    </h2>
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Autor: Arsenii Kratsylo -->
+    <!-- Szkoła: 13 Technikum -->
+    <!-- Klasa: 2F -->
+
+    <meta name="author" content="Arsenii Kratsylo">
+    <meta name="description" content="Strona z żartami">
+
+    <title>Żarty</title>
+
+    <style>
+        body {
+            background-color: lightgreen;
+            color: black;
+            font-family: "Times New Roman", serif;
+        }
+
+        fieldset {
+            background-color: #c0c0c0;
+            margin: 20px 10px;
+            padding: 10px;
+            min-height: 170px;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .linia1 {
+            border: 0;
+            border-top: 2px solid blue;
+            margin: 0 0 25px 0;
+        }
+
+        .linia2 {
+            border: 0;
+            border-top: 8px solid #00e6c3;
+            width: 75%;
+            margin: 10px auto;
+        }
+
+        .linia3 {
+            border: 0;
+            border-top: 10px solid #d020ff;
+            width: 55%;
+            margin: 10px 0 10px auto;
+        }
+
+        .wewnetrzne {
+            border: 1px solid #999;
+            padding: 8px;
+            min-height: 70px;
+        }
+
+        .dane {
+            margin-top: 45px;
+            font-weight: bold;
+        }
+
+        .zakonczenie {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- PIERWSZY ŻART -->
+
+    <fieldset>
+
+        <legend> Żart o Technologii</legend>
+
+        <hr class="linia1">
+
+        <h1 align="right"> Żart o Technologii</h1>
+
+        <div class="wewnetrzne">
+
+          
+            <p>
+                 Dlaczego komputer poszedł do lekarza?<br>
+                Miał wirusa i nie mógł się połączyć.<br>
+           
+            </p>
+
+        </div>
+
+        <hr class="linia1" style="border-top-color: yellow; width: 55%; margin-left: 0;">
+
+    </fieldset>
+
+
+    <!-- DRUGI ŻART -->
+
+    <fieldset>
+
+        <legend>Żart o Jedzeniu</legend>
+
+        <h2 align="center">Żart o Jedzeniu</h2>
+
+        <div class="wewnetrzne">
+
+            <p>
+                Co mówi kawa do herbaty?<br>
+                „Jestem mocniejsza”.
+            </p>
+
+        </div>
+
+        <hr class="linia2">
+
+    </fieldset>
+
+
+    <!-- TRZECI ŻART -->
+
+    <fieldset>
+
+        <legend>Żart o babie</legend>
+
+        <h3 align="left">Żart o babie</h3>
+
+        <div class="wewnetrzne">
+
+            <p>
+                Baba zadzwoniła ze sprzedaży.<br>
+                Przychodzi do baby sprzedawca odkurzaczy,
+                stawia odkurzacz na podłodze,
+                podłącza do prądu i mówi:<br>
+                - Żem każdy paproch, którego nie wciągnie to
+                supernowoczesne urządzenie.<br>
+                Na to baba:<br>
+                - Życzę panu smacznego. Od dwóch dni nie ma prądu.
+            </p>
+
+        </div>
+
+        <hr class="linia3">
+
+        <!-- Nazwisko i imię ucznia -->
+
+        <div class="dane">
+            nazwisko ucznia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            imię ucznia
+        </div>
+
+        <p>
+            Kratsylo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Arsenii
+        </p>
+
+    </fieldset>
+
+
+    <!-- 7 znaków specjalnych -->
+
+    <div class="zakonczenie">
+        ★ ♥ ♦ ♣ ☺ ☼ ♪
+    </div>
+
+
+</body>
+</html>
