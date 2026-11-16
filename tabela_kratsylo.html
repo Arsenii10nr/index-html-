@@ -1,27 +1,100 @@
+
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
 <meta charset="utf-8">
 <meta name="author" content="Arsenii Kratsylo">
 <title>Tabela - Kratsylo</title>
+
 <style>
-table { border-collapse: collapse; }
-th, td { border: 1px solid black; padding: 16px; }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 16px;
+    }
+
+    th {
+        background-color: lightgray;
+    }
+
+    h1 {
+        text-align: center;
+    }
 </style>
 </head>
+
 <body>
+
 <h1>Tabela</h1>
+
 <table>
-<tr><th>Model dysku</th><th>interfejs</th><th>Pojemnosc</th></tr><tr><th>Odczyt</th><th>zapis</th><th>Typ pamieci</th></tr>
-<tr><td>Samsung 990 EVO</td><td>PCIe 5.0</td><td>1TB</td></tr><tr><td>5000 MB/S</td><td>4200 MB/S</td><td></td></tr>
-<tr><td>Kingston KC 3000</td><td>PCIe 4.0</td><td>1TB</td></tr><tr><td>7000 MB/S</td><td>6000 MB/S</td><td></td></tr>
-<tr><td>WD BLACK SN770</td><td>PCIe 4.0</td><td>1TB</td></tr><tr><td>5150 MB/S</td><td>4900 MB/S</td><td>4900 MB/S</td></tr>
-<tr><td>Samsung 980</td><td>PCIe 4.0</td><td>1TB</td></tr><tr><td>3500 MB/S</td><td>3000 MB/S</td><td>TLC</td></tr>
-<tr><td>Crucial P3 plus</td><td>PCIe 4.0</td><td>2TB</td></tr><tr><td>5000 MB/S</td><td>3600 MB/S</td><td>QLC</td></tr>
-<tr><td></td><td>Dane dyskowe<tr><td></td><td></td><td></td></tr><tr><td></td><td>
+
+    <tr>
+        <th colspan="6">Dane dyskowe</th>
+    </tr>
+
+    <tr>
+        <th>Model dysku</th>
+        <th>Interfejs</th>
+        <th>Pojemność</th>
+        <th>Odczyt</th>
+        <th>Zapis</th>
+        <th>Typ pamięci</th>
+    </tr>
+
+    <tr>
+        <td>Samsung 990 EVO</td>
+        <td>PCIe 5.0</td>
+        <td>1 TB</td>
+        <td>5000 MB/s</td>
+        <td>4200 MB/s</td>
+        <td>TLC</td>
+    </tr>
+
+    <tr>
+        <td>Kingston KC 3000</td>
+        <td>PCIe 4.0</td>
+        <td>1 TB</td>
+        <td>7000 MB/s</td>
+        <td>6000 MB/s</td>
+        <td>TLC</td>
+    </tr>
+
+    <tr>
+        <td>WD BLACK SN770</td>
+        <td>PCIe 4.0</td>
+        <td>1 TB</td>
+        <td>5150 MB/s</td>
+        <td>4900 MB/s</td>
+        <td>TLC</td>
+    </tr>
+
+    <tr>
+        <td>Samsung 980</td>
+        <td>PCIe 4.0</td>
+        <td>1 TB</td>
+        <td>3500 MB/s</td>
+        <td>3000 MB/s</td>
+        <td>TLC</td>
+    </tr>
+
+    <tr>
+        <td>Crucial P3 Plus</td>
+        <td>PCIe 4.0</td>
+        <td>2 TB</td>
+        <td>5000 MB/s</td>
+        <td>3600 MB/s</td>
+        <td>QLC</td>
+    </tr>
 
 </table>
+
 <p><a href="index.html">Wróć do strony głównej</a></p>
+
 </body>
 </html>
-
