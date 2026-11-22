@@ -7,23 +7,56 @@
 <title>Tabela - Kratsylo</title>
 
 <style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
     table {
         border-collapse: collapse;
         width: 100%;
         text-align: center;
+        border: 3px solid #d44332;
     }
 
     th, td {
-        border: 1px solid black;
-        padding: 16px;
-    }
-
-    th {
-        background-color: lightgray;
+        border: 3px solid #d44332;
+        padding: 12px;
     }
 
     h1 {
         text-align: center;
+    }
+
+    .tytul {
+        background-color: #eeeeee;
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 18px;
+    }
+
+    .naglowek {
+        background-color: #286b19;
+        color: white;
+    }
+
+    .model {
+        background-color: #333333;
+        color: white;
+        font-weight: bold;
+    }
+
+    .dane {
+        background-color: #eeeeee;
+        color: black;
+    }
+
+    .stopka {
+        background-color: #286b19;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 20px;
     }
 </style>
 </head>
@@ -35,10 +68,12 @@
 <table>
 
     <tr>
-        <th colspan="6">DANE DYSKOWE SSD-Arsenii Kratsylo 2F 1G</th>
+        <th colspan="6" class="tytul">
+            Dane dyskowe SSD-Arsenii Kratsylo 2F 1g
+        </th>
     </tr>
 
-    <tr>
+    <tr class="naglowek">
         <th>Model dysku</th>
         <th>Interfejs</th>
         <th>Pojemnosc</th>
@@ -48,48 +83,59 @@
     </tr>
 
     <tr>
-        <td>Samsung 990 EVO</td>
-        <td>PCIe 5.0</td>
-        <td>1 TB</td>
-        <td>5000 MB/s</td>
-        <td>4200 MB/s</td>
-        <td>TLC</td>
+        <td class="model">Samsung 990 EVO</td>
+        <td class="dane">PCIe 5.0</td>
+        <td class="dane">1 TB</td>
+        <td class="dane">5000 MB/s</td>
+        <td class="dane">4200 MB/s</td>
+        <td rowspan="5" class="dane">TLC</td>
     </tr>
 
     <tr>
-        <td>Kingston KC 3000</td>
-        <td>PCIe 4.0</td>
-        <td>1 TB</td>
-        <td>7000 MB/S</td>
-        <td>6000 MB/S</td>
-        <td>TLC</td>
+        <td class="model">Kingston KC3000</td>
+        <td class="dane">PCIe 4.0</td>
+        <td class="dane">1 TB</td>
+        <td class="dane">7000 MB/s</td>
+        <td class="dane">6000 MB/s</td>
     </tr>
 
     <tr>
-        <td>WD black SN770</td>
-        <td>PCIe 4.0</td>
-        <td>1 TB</td>
-        <td>5150 MB/S</td>
-        <td>4900 MB/S</td>
-        <td>TLC</td>
+        <td class="model">WD Black SN770</td>
+        <td class="dane">PCIe 4.0</td>
+        <td class="dane">1 TB</td>
+        <td class="dane">5150 MB/s</td>
+        <td class="dane">4900 MB/s</td>
     </tr>
 
     <tr>
-        <td>Samsung 980</td>
-        <td>PCIe 4.0</td>
-        <td>1 TB</td>
-        <td>3500 MB/S</td>
-        <td>3000 MB/S</td>
-        <td>TLC</td>
+        <td class="model">Samsung 980</td>
+        <td class="dane">PCIe 4.0</td>
+        <td class="dane">1 TB</td>
+        <td class="dane">3500 MB/s</td>
+        <td class="dane">3000 MB/s</td>
     </tr>
 
     <tr>
-        <td>Crucial P3 Plus</td>
-        <td>PCIe 4.0</td>
-        <td>2 TB</td>
-        <td>5000 MB/S</td>
-        <td>3600 MB/S</td>
-        <td>QLC</td>
+        <td class="model">Lexar NM790</td>
+        <td class="dane">PCIe 4.0</td>
+        <td class="dane">2 TB</td>
+        <td class="dane">7400 MB/s</td>
+        <td class="dane">6500 MB/s</td>
+    </tr>
+
+    <tr>
+        <td class="model">Crucial P3 Plus</td>
+        <td class="dane">PCIe 4.0</td>
+        <td class="dane">2 TB</td>
+        <td class="dane">5000 MB/s</td>
+        <td class="dane">3600 MB/s</td>
+        <td class="dane">QLC</td>
+    </tr>
+
+    <tr>
+        <th colspan="6" class="stopka">
+            Dane dyskowe
+        </th>
     </tr>
 
 </table>
